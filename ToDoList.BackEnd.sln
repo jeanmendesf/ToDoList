@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.BackEnd.API", "src\ToDoList.BackEnd.API\ToDoList.BackEnd.API.csproj", "{21EF13C8-42DE-4E0F-AA71-AB541E19EAE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList.BackEnd.API", "src\ToDoList.BackEnd.API\ToDoList.BackEnd.API.csproj", "{21EF13C8-42DE-4E0F-AA71-AB541E19EAE0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{077E4C83-49C2-4E84-9FA2-5A71EF779199} = {077E4C83-49C2-4E84-9FA2-5A71EF779199}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.BackEnd.Domain", "src\ToDoList.BackEnd.Domain\ToDoList.BackEnd.Domain.csproj", "{6FFB769A-FF50-4693-BFA0-8484DAE51ED7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList.BackEnd.Domain", "src\ToDoList.BackEnd.Domain\ToDoList.BackEnd.Domain.csproj", "{6FFB769A-FF50-4693-BFA0-8484DAE51ED7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.BackEnd.Data", "src\ToDoList.BackEnd.Data\ToDoList.BackEnd.Data.csproj", "{077E4C83-49C2-4E84-9FA2-5A71EF779199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList.BackEnd.Data", "src\ToDoList.BackEnd.Data\ToDoList.BackEnd.Data.csproj", "{077E4C83-49C2-4E84-9FA2-5A71EF779199}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FFB769A-FF50-4693-BFA0-8484DAE51ED7} = {6FFB769A-FF50-4693-BFA0-8484DAE51ED7}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
