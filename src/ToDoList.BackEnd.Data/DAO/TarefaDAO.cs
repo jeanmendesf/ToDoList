@@ -9,7 +9,7 @@ using ToDoList.BackEnd.Domain.Models;
 
 namespace ToDoList.BackEnd.Data.DAO
 {
-    internal class TarefaDAO
+    public class TarefaDAO
 
 
     {

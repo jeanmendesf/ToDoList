@@ -46,6 +46,10 @@ namespace ToDoList.BackEnd.API
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Tarefa}/{action=ObterTodasTarefas}"
+                    );
             });
         }
     }

@@ -19,5 +19,6 @@ namespace ToDoList.BackEnd.Domain.Models
         public string Categoria { get; set; }
         public DateTime DataPrazo { get; set; }
 
+
     }
 }
